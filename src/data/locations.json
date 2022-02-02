@@ -1,0 +1,34 @@
+[
+  {
+    "location": "South Side",
+    "street": "2499 E. Carson St.",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "zip": "15203",
+    "phone": "(412) 555-1212"
+  },
+  {
+    "location": "Oakland",
+    "street": "3546 Fifth Ave.",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "zip": "15213",
+    "phone": "(412) 555-2424"
+  },
+  {
+    "location": "Mount Lebanon",
+    "street": "734 Washington Rd.",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "zip": "15228",
+    "phone": "(412) 555-3636"
+  },
+  {
+    "location": "Sewickley",
+    "street": "427 Beaver St.",
+    "city": "Sewickley",
+    "state": "PA",
+    "zip": "15143",
+    "phone": "(412) 555-1212"
+  }
+]

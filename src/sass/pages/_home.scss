@@ -1,0 +1,45 @@
+@use '../base/' as *;
+@use '../abstracts/' as a;
+
+.Home {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      $clr--lt-pale-yellow,
+      $clr--lt-pale-yellow
+    ),
+    url('../assets/headerBcg.jpeg');
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  & .container {
+    width: 327px;
+    margin-inline: auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & .title {
+      font-family: $ff--kaushan;
+      font-size: 4rem;
+      font-weight: 900;
+      line-height: 5rem;
+      letter-spacing: 3px;
+      text-align: center;
+      margin-bottom: 32px;
+      & .welcome {
+        color: $clr--dim-gray;
+      }
+      & .name {
+        color: $clr--pink;
+      }
+    }
+    & .subtitle {
+      text-align: center;
+      color: $clr--dim-gray;
+      margin-bottom: 48px;
+    }
+  }
+}

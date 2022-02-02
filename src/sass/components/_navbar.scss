@@ -1,0 +1,104 @@
+@use '../base/' as *;
+@use '../abstracts/' as a;
+
+.Navbar {
+  width: 100%;
+  height: 70px;
+  padding: 0 24px;
+  position: relative;
+  margin-inline: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  @include a.breakpoint(tablet) {
+    position: unset;
+  }
+  & a {
+    text-decoration: none;
+    & h2 {
+      font-size: clamp(1rem, calc(1rem + ((1vw - 0.2rem) * 7.619)), 1.5rem);
+      color: $clr--pink;
+      margin-left: 16px;
+    }
+  }
+  & .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    & .name {
+      @include a.breakpoint(tablet) {
+        width: clamp(125px, calc(7.8125rem + ((1vw - 7.4px) * 100)), 225px);
+        margin-right: 32px;
+      }
+      h2 {
+      }
+    }
+  }
+
+  & .NavLinks {
+    width: 100%;
+    height: 100vh;
+    padding-top: 160px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: $clr--pale-yellow;
+    @include a.breakpoint(tablet) {
+      height: 80px;
+      padding-top: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      position: unset;
+      background: transparent;
+    }
+    &.open-menu {
+      display: flex;
+    }
+    & .nav-link {
+      text-transform: uppercase;
+      @include a.breakpoint(tablet) {
+        margin-right: 32px;
+      }
+      & a {
+        text-decoration: none;
+        color: $clr--dusk-blue;
+        transition: all 200ms ease-in-out;
+        & p {
+          font-size: 1.75rem;
+          margin-bottom: 48px;
+          @include a.breakpoint(tablet) {
+            font-size: unset;
+            margin-bottom: unset;
+          }
+        }
+        &:hover {
+          color: $clr--pink;
+        }
+      }
+    }
+  }
+  & .nav-end {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    & .shopping-cart {
+      width: 24px;
+      height: 24px;
+      margin-right: 32px;
+      @include a.breakpoint(tablet) {
+        margin-right: 0;
+      }
+    }
+  }
+}

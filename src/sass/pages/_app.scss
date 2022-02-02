@@ -1,0 +1,17 @@
+@use '../base/' as *;
+@use '../abstracts/' as a;
+
+body {
+  background-color: $clr--lt-pale-yellow;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+}
+
+.App {
+  width: 100vw;
+  height: fit-content;
+}

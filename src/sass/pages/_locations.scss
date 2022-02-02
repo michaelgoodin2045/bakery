@@ -1,0 +1,51 @@
+@use '../base/' as *;
+@use '../abstracts/' as a;
+
+.Locations {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  & .title {
+    margin-top: 16px;
+    color: $clr--pink;
+  }
+  & .subtitle {
+    color: $clr--dim-gray;
+  }
+  .locations {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 16px;
+    & h2 {
+      color: $clr--dim-gray;
+    }
+    & .container {
+      width: 327px;
+      margin-inline: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      & .card {
+        width: 48%;
+        margin-top: 16px;
+        text-align: center;
+        color: $clr--dim-gray;
+        & span {
+          font-family: $ff--barlow;
+          font-size: 1rem;
+          font-weight: 500;
+          letter-spacing: 0.5px;
+          line-height: 1.25rem;
+        }
+      }
+    }
+  }
+}

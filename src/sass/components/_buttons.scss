@@ -1,0 +1,16 @@
+@use '../base/' as *;
+@use '../abstracts/' as a;
+
+.explore-btn {
+  padding: 0.5em 2em;
+  border: 0;
+  background-color: $clr--dusk-blue;
+  color: $clr--pale-yellow;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    background-color: $clr--pink;
+  }
+}

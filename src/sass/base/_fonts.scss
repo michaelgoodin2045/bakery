@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap');
+
+$ff--kaushan: 'Kaushan Script', cursive;
+$ff--barlow: 'Barlow', sans-serif;
+
+h1 {
+  font-family: $ff--kaushan;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 2.5rem;
+}
+
+h2 {
+  font-family: $ff--kaushan;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-family: $ff--barlow;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 2rem;
+}
+
+p {
+  font-family: $ff--barlow;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 1.25rem;
+}
