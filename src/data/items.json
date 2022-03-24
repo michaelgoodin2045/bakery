@@ -1,0 +1,98 @@
+[
+  {
+    "id": 10,
+    "category": "sweets",
+    "name": "Sweets 1",
+    "image": "../../assets/sweets-1.jpeg",
+    "alt": "sweets-1",
+    "price": 499
+  },
+  {
+    "id": 11,
+    "category": "sweets",
+    "name": "Sweets 2",
+    "image": "../../assets/sweets-2.jpeg",
+    "alt": "sweets-2",
+    "price": 699
+  },
+  {
+    "id": 12,
+    "category": "sweets",
+    "name": "Sweets 3",
+    "image": "../../assets/sweets-3.jpeg",
+    "alt": "sweets-3",
+    "price": 899
+  },
+  {
+    "id": 20,
+    "category": "doughnuts",
+    "name": "Doughnut 1",
+    "image": "../../assets/doughnut-1.jpeg",
+    "alt": "doughnut-1",
+    "price": 499
+  },
+  {
+    "id": 21,
+    "category": "doughnuts",
+    "name": "Doughnut 2",
+    "image": "../../assets/doughnut-2.jpeg",
+    "alt": "doughnut-2",
+    "price": 699
+  },
+  {
+    "id": 22,
+    "category": "doughnuts",
+    "name": "Doughnut 3",
+    "image": "../../assets/doughnut-3.jpeg",
+    "alt": "doughnut-3",
+    "price": 899
+  },
+  {
+    "id": 30,
+    "category": "cupcakes",
+    "name": "Cupcake 1",
+    "image": "../../assets/cupcake-1.jpeg",
+    "alt": "cupcake-1",
+    "price": 499
+  },
+  {
+    "id": 31,
+    "category": "cupcakes",
+    "name": "Cupcake 2",
+    "image": "../../assets/cupcake-2.jpeg",
+    "alt": "cupcake-2",
+    "price": 699
+  },
+  {
+    "id": 32,
+    "category": "cupcakes",
+    "name": "Cupcake 3",
+    "image": "../../assets/cupcake-3.jpeg",
+    "alt": "cupcake-3",
+    "price": 899
+  },
+  {
+    "id": 40,
+    "category": "cakes",
+    "name": "Cake 1",
+    "image": "../../assets/cake-1.jpeg",
+    "alt": "cake-1",
+    "price": 499
+  },
+  {
+    "id": 41,
+    "category": "cakes",
+    "name": "Cake 2",
+    "image": "../../assets/cake-2.jpeg",
+    "alt": "cake-2",
+    "price": 699
+  },
+  {
+    "id": 42,
+    "category": "cakes",
+    "name": "Cake 3",
+    "image": "../../assets/cake-3.jpeg",
+    "alt": "cake-3",
+    "price": 899
+  }
+]

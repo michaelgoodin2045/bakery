@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "all",
+    "filter": "all"
+  },
+  {
+    "id": 2,
+    "name": "cakes",
+    "filter": "cakes"
+  },
+  {
+    "id": 3,
+    "name": "cupcakes",
+    "filter": "cupcakes"
+  },
+  {
+    "id": 4,
+    "name": "sweets",
+    "filter": "sweets"
+  },
+  {
+    "id": 5,
+    "name": "doughnuts",
+    "filter": "doughnuts"
+  }
+]

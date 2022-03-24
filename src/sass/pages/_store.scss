@@ -1,0 +1,31 @@
+@use '../base/' as *;
+@use '../abstracts/' as a;
+
+.Store {
+  width: 100vw;
+  height: fit-content;
+  background-color: $clr--bg-two;
+  & .title {
+    width: 100%;
+    text-align: center;
+    & h1 {
+      & .gray {
+        color: $clr--dim-gray;
+      }
+      & .pink {
+        color: $clr--pink;
+      }
+    }
+  }
+  .store-buttons {
+    width: 100%;
+    height: fit-content;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

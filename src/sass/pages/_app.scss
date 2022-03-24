@@ -2,7 +2,15 @@
 @use '../abstracts/' as a;
 
 body {
-  background-color: $clr--lt-pale-yellow;
+  background-image: linear-gradient(
+      to bottom,
+      $clr--lt-pale-yellow,
+      $clr--lt-pale-yellow
+    ),
+    url('../assets/headerBcg.jpeg');
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
   overflow-y: scroll;

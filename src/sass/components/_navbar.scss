@@ -33,8 +33,6 @@
         width: clamp(125px, calc(7.8125rem + ((1vw - 7.4px) * 100)), 225px);
         margin-right: 32px;
       }
-      h2 {
-      }
     }
   }
 
@@ -49,7 +47,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: $clr--pale-yellow;
+    background: $clr--bg-two;
+    z-index: 10;
     @include a.breakpoint(tablet) {
       height: 80px;
       padding-top: 0;
@@ -96,6 +95,12 @@
       width: 24px;
       height: 24px;
       margin-right: 32px;
+      & .total-qty {
+        display: none;
+        &.show {
+          display: inline;
+        }
+      }
       @include a.breakpoint(tablet) {
         margin-right: 0;
       }

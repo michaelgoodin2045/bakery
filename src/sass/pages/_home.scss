@@ -4,15 +4,6 @@
 .Home {
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(
-      to bottom,
-      $clr--lt-pale-yellow,
-      $clr--lt-pale-yellow
-    ),
-    url('../assets/headerBcg.jpeg');
-  background-position-x: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   & .container {
     width: 327px;
     margin-inline: auto;
